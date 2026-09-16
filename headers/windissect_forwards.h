@@ -1,0 +1,42 @@
+#pragma once
+
+#include <cstdint>
+
+// Forward declarations (automatically generated)
+class WindissectOpaque;
+class CDataPackageHelper; 
+class DragDropContainerTelemetry; 
+class DragOperation; 
+class DropTargetInternal; 
+namespace Microsoft { namespace WRL { class Details; } } 
+class WinRTDragDropTelemetry; 
+namespace Windows { namespace Internal { namespace PlatformExtensions { class Details; } } } 
+class winrt; 
+class CDataPackageHelper; class CDropTargetProvider; class CExtension; class CWinRtTarget; class CallerIdentity; class CoTaskMemFree; class DelegateInvokeHelper; class Destroy; class DragDropContainerBroker; class DragDropContainerProxy; class DragDropContainerTelemetry; class DragDropInternalStatics; class DragDropManager; class DragDropManagerInternal; class DragDropStatics; class DragOperation; class DragUIContent; class DragVisualHost; class DragVisualProvider; class DropOperationTargetRequestedEventArgs; class DropTargetInternal; class DropTargetMapService; class EventRegistrationToken; class ExclusionToken; class FEATURE_ERROR; class FEATURE_LOGGED_TRAITS; class FEATURE_STATE_CHANGE_SUBSCRIPTION__; class HINSTANCE__; class HKEY__; class HRSRC__; class HSTRING__; class HWND__; class HtmlResourceHelper; class IAgileReference; class IAsyncDragUIContentCompletionCallbackPriv; class IAsyncDragUIContentPriv; class IClassFactory; class IClosableByteAccess; class ID2D1Device; class ID3D11Device; class IDCompositionDesktopDevicePartner; class IDCompositionSurface; class IDCompositionVisual2; class IDataObject; class IDataObjectProviderPriv; class IDataPackageViewPriv; class IDeferredVisualCallback; class IDragDropArgsPriv; class IDragDropContainerBroker; class IDragOperationPriv; class IDragUIContentProviderPriv; class IDragUIOverridePriv; class IDropOperationTargetPriv; class IDropTarget; class IDropTargetProviderPriv; class IDropTargetService; class IInspectable; class IReentrancyModelProvider; class IRpcOptions; class IShellItem; class IStream; class IUnknown; class IWICBitmapLock; class IWICBitmapSource; class IWICImagingFactory; class IWICMetadataQueryReader; class IWICPalette; class IWeakReference; class LocalFree; class ReleaseSRWLockExclusive; class ResourceHelper; class RpcOptionsHelper; class SharedBuffer; class TLV; class TextResourceHelper; class TraceLoggingCorrelationVector; class TraceLoggingCorrelationVectorV1_t; class UriResourceHelper; class VisualHost; class WICRect; class WicBitmapLockOnSoftwareBitmap; class WicBitmapOnSoftwareBitmap; class WilFailureReport; class WilFailureReportInformation; class WinRTDragDropTelemetry; class WindowsDeleteString; class _CONTEXT; class _EXCEPTION_RECORD; class _GUID; class _ITEMIDLIST; class _POINTL; class _RO_REGISTRATION_COOKIE; class _RTL_RUN_ONCE; class _RTL_SRWLOCK; class _TP_CALLBACK_INSTANCE; class _TP_TIMER; class __WIL_RTL_FEATURE_USAGE_DATA; class __WIL__WNF_STATE_NAME; class _tlgProvider_t; class _tlgWrapSz; class _tlgWrapperByRef; class _tlgWrapperByVal; class lambda_03b947198518aa47179ef5a4409e8b05; class lambda_11f992a796f6f12d0755f54847712c29; class lambda_97beafccc83a16a4fe84045c0dd45ac8; class lambda_9c4f546754185d9b8a85557d4f52803a; class lambda_9eb4cb1ed26170b98564720f248a6d35; class lambda_c2fd7731c5ae0d37e65ea73be67c0f1b; class lambda_de2302ce56f05b9fb4652ab85a297d93; class tagPOINT; class tagSIZE; class thunk; class wil_details_FeatureReportingCache; class wil_details_FeatureStateCache; class wil_details_FeatureUsageSRUM; class winrt; 
+namespace IDynamicVirtualChannelReceiver { namespace IDynamicVirtualChannelReceiverEventArgs { namespace Internal { class IDynamicVirtualChannelReceiverEventArgs; } } } 
+namespace IDynamicVirtualChannelReceiver { namespace Internal { namespace DynamicVirtualChannel { class IDynamicVirtualChannelReceiver; } } } 
+namespace Microsoft { namespace WRL { class AgileRef; class CloakedIid; class ComPtr; class Details; class EventSource; class FtmBase; class Implements; class InvokeModeOptions; class RuntimeClassFlags; class SimpleClassFactory; class SimpleSealedActivationFactory; } } 
+namespace Microsoft { namespace WRL { namespace Wrappers { class Details; class HString; class HStringReference; class SRWLock; } } } 
+namespace Windows { class Foundation; } 
+namespace Windows { namespace ApplicationModel { namespace DataTransfer { class IDataPackage; class IDataPackagePropertySet3; class IDataPackageView; } } } 
+namespace Windows { namespace ApplicationModel { namespace DataTransfer { namespace DragDrop { namespace Core { class CoreDragDropManager; class CoreDropOperationTargetRequestedEventArgs; class ICoreDragDropManager; class ICoreDragInfo; class ICoreDragInfo2; class ICoreDragOperation; class ICoreDragOperation2; class ICoreDragUIOverride; class ICoreDropOperationTarget; } } } } } 
+namespace Windows { namespace ApplicationModel { namespace DataTransfer { namespace Internal { class ICoreDragInfoWithCoordinateSpace; class ICoreDragOperationInternal; } } } } 
+namespace Windows { namespace Graphics { namespace Imaging { class IBitmapBuffer; class ISoftwareBitmap; } } } 
+namespace Windows { namespace Internal { class ComTaskPoolHandler; class IAsyncFireCompletion; class StringReference; } } 
+namespace Windows { namespace Internal { namespace ApplicationModel { namespace WindowManagement { class WindowId; } } } } 
+namespace Windows { namespace Internal { namespace ComTaskPool { class CTaskWrapper; } } } 
+namespace Windows { namespace Internal { namespace DynamicVirtualChannel { class DynamicVirtualChannelReceiver; class DynamicVirtualChannelReceiverEventArgs; class IDynamicVirtualChannelReceiver; class IDynamicVirtualChannelReceiverEventArgs; class IDynamicVirtualChannelReceiverFactory; class IDynamicVirtualChannelSender; class IDynamicVirtualChannelSenderFactory; } } } 
+namespace Windows { namespace Internal { namespace Foundation { namespace Contracts { class IActivationFactoryContractRedirectorContext; } } } } 
+namespace Windows { namespace Internal { namespace PlatformExtensions { class Details; } } } 
+namespace Windows { namespace Storage { class IStorageItem; } } 
+namespace Windows { namespace Storage { namespace FileProperties { class StorageItemThumbnail; } } } 
+namespace Windows { namespace Storage { namespace Streams { class IBuffer; class IBufferByteAccess; class IDataReaderFactory; class IDataWriter; class IOutputStream; class IRandomAccessStream; class IRandomAccessStreamReference; class IRandomAccessStreamReferenceStatics; class IRandomAccessStreamWithContentType; class RandomAccessStreamReference; } } } 
+namespace Windows { namespace UI { namespace Core { class IInternalUICoreStatics; } } } 
+namespace Windows { namespace UI { namespace Internal { namespace Input { class IInputDropTargetStatics; class IInputSiteStatics; } } } } 
+namespace std { class _Iterator_base0; class _Simple_types; class _Tree_find_result; class _Tree_id; class _Tree_iterator; class _Tree_node; class _Tree_simple_types; class _Tree_unchecked_const_iterator; class _Tree_val; class _Value_init_tag; class _Vector_const_iterator; class _Vector_iterator; class _Vector_val; class allocator; class bad_alloc; class bad_array_new_length; class basic_string; class basic_string_view; class char_traits; class exception; class invalid_argument; class logic_error; class nothrow_t; class nullptr_t; class pair; class piecewise_construct_t; class tuple; class vector; } 
+namespace wil { class CallContextInfo; class DiagnosticsInfo; class FailureInfo; class ResultException; class ThreadErrorContext; class com_ptr_t; class err_exception_policy; class function_deleter; class process_heap_deleter; class srwlock; class unique_any_array_ptr; class unique_any_t; } 
+namespace wil { namespace details { class DestroyThreadPoolTimer; class FeatureLogging; class FeatureStateManager; class IFailureCallback; class IFunctor; class IFunctorHost; class ResultStatus; class SystemThreadPoolMethods; class ThreadFailureCallbackHolder; class resource_policy; class unique_any_array_deleter; class unique_storage; } } 
+namespace wil { namespace details_abi { class FeatureStateData; class ProcessLocalData; class ProcessLocalStorageData; class RawUsageIndex; class ThreadLocalData; class UsageIndexProperty; class UsageIndexes; class heap_buffer; class heap_vector; } } 
+namespace wistd { class default_delete; class function; class integral_constant; class unique_ptr; } 
+namespace wistd { namespace __function { class __base; } } 
+

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "target": "DataExchange.dll",
+  "latest": "2122078328-97D69F9EE663B1AEC5CFBB39810797E0-1",
+  "builds": [
+    {
+      "key": "2122078328-97D69F9EE663B1AEC5CFBB39810797E0-1",
+      "timestamp": "2122078328",
+      "pdb_guid": "97D69F9EE663B1AEC5CFBB39810797E0",
+      "pdb_age": 1,
+      "machine": "0x8664",
+      "ir": "builds/2122078328-97D69F9EE663B1AEC5CFBB39810797E0-1/ir.json.gz",
+      "previous": null,
+      "diff_json": null,
+      "diff_markdown": null,
+      "summary": null
+    }
+  ],
+  "compression": "gzip"
+}
